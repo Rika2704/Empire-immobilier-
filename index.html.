@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empire Immobilier</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #003366; color: white; padding: 20px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 40px 20px; }
+    h2 { color: #003366; }
+    .property { border: 1px solid #ccc; padding: 20px; margin: 10px 0; }
+    footer { background: #003366; color: white; text-align: center; padding: 15px; }
+    input, textarea { width: 100%; padding: 10px; margin: 5px 0; }
+    button { background: #003366; color: white; border: none; padding: 10px 20px; cursor: pointer; }
+    button:hover { background: #0055aa; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Empire Immobilier</h1>
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#properties">Nos biens</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>À propos de nous</h2>
+  <p>Empire Immobilier est votre partenaire de confiance pour acheter, vendre ou louer des biens immobiliers.</p>
+</section>
+
+<section id="properties">
+  <h2>Nos biens</h2>
+  <div class="property">
+    <h3>Appartement moderne</h3>
+    <p>2 chambres, centre-ville, proche de toutes commodités.</p>
+  </div>
+  <div class="property">
+    <h3>Maison familiale</h3>
+    <p>4 chambres, jardin spacieux, quartier calme.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contactez-nous</h2>
+  <form>
+    <input type="text" placeholder="Votre nom" required>
+    <input type="email" placeholder="Votre email" required>
+    <textarea placeholder="Votre message" rows="5" required></textarea>
+    <button type="submit">Envoyer</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2025 Empire Immobilier</p>
+</footer>
+
+</body>
+</html>
